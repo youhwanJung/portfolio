@@ -105,8 +105,7 @@ nav a:hover {
 ============================================================ */
 #hero {
   background-color: #ffffff;
-  min-height: 80vh;         
-  min-height: 100svh;      
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1528,8 +1527,7 @@ nav a:hover {
 @media (max-width: 968px) {
   #hero {
     padding: 0 24px;
-    min-height: 70vh;
-    min-height: 100svh;  
+    min-height: 70svh;
   }
 
   .hero-main-title {
@@ -1624,9 +1622,9 @@ nav a:hover {
     gap: 28px;
   }
 
-  .hero-cta {
+  /* .hero-cta {
     display: none;
-  }
+  } */
 }
 
 /* ============================================================
@@ -1727,9 +1725,9 @@ nav a:hover {
     font-size: 13px;
   }
 
-  .hero-cta {
+  /* .hero-cta {
     display: none;
-  }
+  } */
 
   /* ────────────────────────────────────────── */
 }

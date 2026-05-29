@@ -74,4 +74,3 @@ function switchTab(btn, tabId) {
   modal.querySelector('#' + tabId).classList.add('active');
 }
 
-hero.style.height = window.innerHeight + 'px';
